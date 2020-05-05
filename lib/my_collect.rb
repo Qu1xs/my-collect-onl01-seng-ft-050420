@@ -8,4 +8,6 @@ def my_collect(array)
   collection
 end
 
-my)collect
+my_collect(["Tim", "Tom", "Jim"]) do |name| 
+  name.split(" ").first
+end 
